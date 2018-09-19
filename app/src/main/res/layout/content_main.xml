@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/play_grid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="@string/text_one"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="@string/text_two"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="@string/text_three"
+                android:textSize="70sp" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="@string/text_four"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="@string/text_five"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="@string/text_six"
+                android:textSize="70sp" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="@string/text_seven"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="@string/text_eight"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="@string/text_nine"
+                android:textSize="70sp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/new_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="98dp"
+        android:text="@string/new_game_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
