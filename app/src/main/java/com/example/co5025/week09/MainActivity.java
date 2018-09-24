@@ -76,10 +76,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.one:
+                makeMove(1);
                 respond();
                 break;
             case R.id.two:
-                respond();
+                makeMove(2);
                 break;
             case R.id.three:
                 makeMove(3);
