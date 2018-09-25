@@ -81,35 +81,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.two:
                 makeMove(2);
-                respond();
                 break;
             case R.id.three:
                 makeMove(3);
-                respond();
                 break;
             case R.id.four:
                 makeMove(4);
-                respond();
                 break;
             case R.id.five:
                 makeMove(5);
-                respond();
                 break;
             case R.id.six:
                 makeMove(6);
-                respond();
                 break;
             case R.id.seven:
                 makeMove(7);
-                respond();
                 break;
             case R.id.eight:
                 makeMove(8);
-                respond();
                 break;
             case R.id.nine:
                 makeMove(9);
-                respond();
                 break;
             case R.id.new_game:
                 clearGrid();
